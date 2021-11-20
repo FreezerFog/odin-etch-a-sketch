@@ -1,3 +1,22 @@
 body {
-  background-color: antiquewhite;
+  background-color: #d3d3d3;
+}
+
+button {
+  background-color: #00ffff;
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.grid-container {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid #000000;
+  border-radius: 5px;
 }
